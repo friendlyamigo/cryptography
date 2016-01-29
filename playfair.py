@@ -10,7 +10,11 @@ key = sys.argv[1]
 source = sys.argv[2]
 destination = sys.argv[3]
 
-
+# a b c d e
+# f g h i k
+# l m n o p
+# q r s t u
+# v w x y z
 
 
 
@@ -107,7 +111,7 @@ def same_row(let1, let2):
     if let2[1] == 4: # for letter 2
         alt_let2 = get_letter(let2[0], 0)
     else:
-        alt_let1 = get_letter(let2[0], let2[1] + 1)
+        alt_let2 = get_letter(let2[0], let2[1] + 1)
 
     return alt_let1, alt_let2
 
